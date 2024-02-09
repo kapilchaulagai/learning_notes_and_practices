@@ -1,0 +1,11 @@
+{
+  "name": "learntypescript",
+  "version": "1.0.0",
+  "description": "Learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --target ES6 --experimentalDecorators index.ts && node index.js"
+  },
+  "author": "Kapil Chaulagai",
+  "license": "ISC"
+}

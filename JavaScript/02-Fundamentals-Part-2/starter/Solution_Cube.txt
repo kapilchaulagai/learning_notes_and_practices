@@ -1,0 +1,33 @@
+Yes, I can help you with that. Here's an example of how to use Cube.js in production mode using Podman instead of Docker:
+
+First, you'll need to make sure that you have Podman installed on your machine. You can download the latest version from the official website.
+
+Next, you'll need to create a Podman container for Cube.js. You can do this by running the following command:
+
+Copy code
+podman run -p 4000:4000 -e CUBEJS_DB_TYPE= -e CUBEJS_DB_NAME=database -e CUBEJS_DB_HOST=host -e CUBEJS_DB_USER=user -e CUBEJS_DB_PASS=password -e CUBEJS_APP=app -e CUBEJS_WEB=web -e CUBEJS_WEB_SOCKETS=true -d --name cubejs cubejs/server:latest
+This command will create a new container named "cubejs" and map port 4000 on the host to port 4000 on the container. It also sets environment variables for the database type, name, host, user, and password, as well as the Cube.js app and web settings.
+
+After the container is running, you can access the Cube.js backend by navigating to http://localhost:4000 in your browser.
+
+To stop the container, you can use the following command:
+
+Copy code
+podman stop cubejs
+To start the container again, use the following command:
+Copy code
+podman start cubejs
+Please note that this is just an example, you should replace the environment variables with the appropriate values for your setup. Also, make sure that the database you're connecting to is running and accessible.
+///
+podman run -p 4000:4000 -e CUBEJS_DB_TYPE=mysql -e CUBEJS_DB_NAME=sample_db -e CUBEJS_DB_HOST=localhost:3306 -e CUBEJS_DB_USER=root -e CUBEJS_DB_PASS=root -e CUBEJS_APP=app -e CUBEJS_WEB=web -e CUBEJS_WEB_SOCKETS=true -d --name cubejs cubejs/server:latest
+
+podman run -p 4000:4000 -e CUBEJS_CUBESTORE_HOST=localhost -v ${PWD}:/cube/conf cubejs/cube
+
+podman run -p 4000:4000 -e CUBEJS_DB_TYPE=mysql -e CUBEJS_DB_NAME=sample_db -e CUBEJS_DB_HOST=localhost -e CUBEJS_DB_USER=root -e CUBEJS_DB_PASS=root -e CUBEJS_APP=app -e CUBEJS_WEB=web -e CUBEJS_WEB_SOCKETS=true -d --name cubejs cubejs/server:latest
+
+-d : --detach or --detach=false
+-v: volume: --mount or --mount=[]
+-e: --env or --env=[]
+-p: --publish or --publish=[]
+
+podman run -p 4000:4000 -p 3000:3000 -v ${PWD}:/cube/conf -e CUBEJS_DEV_MODE=true cubejs/cube
