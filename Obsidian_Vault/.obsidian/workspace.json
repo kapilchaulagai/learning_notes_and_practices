@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "40f44e165de98927",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/RxJS/--Contents - RxJS--.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "1e8bb4744d006307",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnings/RxJS/Section 7- Subjects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "31887ba926ffc25d",
             "type": "leaf",
             "pinned": true,
@@ -48,27 +22,57 @@
             }
           },
           {
-            "id": "cdd5cc69464e3233",
+            "id": "41f66aef39c13a5c",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Angular/--Contents - Angular--.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
             }
           },
           {
-            "id": "87c13c1db4c8d2a3",
+            "id": "a9d53fb8080d2d2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular New Project CLI.md",
+                "file": "Learnings/Angular/Section 1 - Getting Started.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "805126cc511110ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learnings/Angular/Section 2 - The Basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee844a04f8474766",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Office Tasks and Notes/Daily Tasks/2024-02-12 TO 2024-02-16.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,11 +129,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "right": {
     "id": "0fd17c2af656aebf",
@@ -145,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/RxJS/Section 7- Subjects.md",
+                "file": "Learnings/Angular/Section 2 - The Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/RxJS/Section 7- Subjects.md",
+                "file": "Learnings/Angular/Section 2 - The Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/RxJS/Section 7- Subjects.md"
+                "file": "Learnings/Angular/Section 2 - The Basics.md"
               }
             }
           }
@@ -205,50 +210,51 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0f44d364e115afa",
+  "active": "805126cc511110ad",
   "lastOpenFiles": [
-    "Learnings/RxJS/--Contents - RxJS--.md",
-    "Angular New Project CLI.md",
+    "Office Tasks and Notes/Daily Tasks/2024-02-12 TO 2024-02-16.md",
+    "Learnings/Angular/Section 2 - The Basics.md",
+    "Learnings/Typescript/--Contents - TS--.md",
+    "Learnings/Angular/Section 1 - Getting Started.md",
+    "Learnings/Angular/--Contents - Angular--.md",
+    "Learnings/Important Drawings/PNG/databinding.png",
     "Office Tasks and Notes/IMPORTANT NOTES.md",
-    "Learnings/Practical Guide to learn Typescript/17. Class Decorator.md",
-    "Learnings/Practical Guide to learn Typescript/--Contents - TS--.md",
-    "Learnings/Practical Guide to learn Typescript/16.  Parameter Decorator.md",
-    "Learnings/Practical Guide to learn Typescript/15. Property Decorator.md",
-    "Learnings/Practical Guide to learn Typescript/14. Configurable Decorator using Decorator Factory.md",
-    "Learnings/Practical Guide to learn Typescript/13. Arguments in Method Decorator.md",
-    "Learnings/Practical Guide to learn Typescript/12. Introduction to Decorators.md",
-    "Learnings/Practical Guide to learn Typescript/11. TS Fundamentals source code.md",
-    "Learnings/Practical Guide to learn Typescript/10. Generics in more Depth.md",
-    "Learnings/Practical Guide to learn Typescript/9. Generic Types.md",
-    "Learnings/Practical Guide to learn Typescript/8. Modules.md",
-    "Learnings/Practical Guide to learn Typescript/6. Interfaces.md",
-    "Learnings/Practical Guide to learn Typescript/7. Classes.md",
-    "Learnings/Practical Guide to learn Typescript/5. Function Basics.md",
-    "Learnings/Practical Guide to learn Typescript/4. Operators, Decisions and Loops.md",
-    "Learnings/Practical Guide to learn Typescript/3. Types in Typescript.md",
-    "Learnings/Practical Guide to learn Typescript/2. Basic Types.md",
-    "Learnings/Practical Guide to learn Typescript/1. Typescript Setup.md",
-    "Learnings/RxJS/0. RxJS - What and Why.md",
-    "Learnings/RxJS/Section 6- Pipeable Operators.md",
-    "Learnings/RxJS/Section 8- Course Summary.md",
+    "Pasted image 20240214213200.png",
+    "Learnings/Important Drawings/PNG/components.png",
+    "Learnings/Angular/Section 34 - Bonus - Typescript Introduction (for Angular 2 Usage).md",
+    "Office Tasks and Notes/Daily Tasks/2024-02-05 TO 2024-02-09.md",
+    "Learnings/Important Drawings/PNG/typescript.png",
+    "Pasted image 20240213212529.png",
+    "Learnings/Important Drawings/PNG/course-structure.png",
+    "Pasted image 20240210164039.png",
+    "Learnings/Important Drawings/Drawing.md",
     "Learnings/RxJS/Section 7- Subjects.md",
-    "Learnings/RxJS/Section 5- Creation Functions.md",
+    "Learnings/Important Drawings/PNG/angular-versioning.png",
+    "Learnings/Angular/Section 33 - Course Roundup.md",
+    "Learnings/Angular/Section 32 - Angular Changes & New Features.md",
+    "Learnings/Angular/Section 31 - Angular as a Platform & Closer Look at the CLI.md",
+    "Learnings/Angular/Section 30 - A Basic Introduction to Unit Testing in Angular Apps.md",
+    "Learnings/Angular/Section 29 - Adding Office Capabilities with Service Workers.md",
+    "Learnings/Angular/Section 28 - Angular Animations.md",
+    "Learnings/Angular/Section 27 - Bonus - Angular Universal.md",
+    "Learnings/Angular/Section 26 - Bonus - Using NgRx For State Management.md",
+    "Learnings/Angular/Section 25 - Angular Signals.md",
+    "Learnings/Angular/Section 24 - Standalone Components.md",
+    "Learnings/Angular/Section 23 - Deploying an Angular App.md",
+    "Learnings/Angular/Section 22 - Angular Modules & Optimizing Angular Apps.md",
+    "Learnings/Angular/Section 21 - Dynamic Components.md",
+    "Learnings/Angular/Section 20 - Authentication & Route Protection in Angular.md",
+    "Learnings/Angular/Section 19 - Course Project - Http.md",
+    "Learnings/Angular/Section 18 - Making HTTP Requests.md",
+    "Learnings/Angular",
+    "Untitled.canvas",
     "Learnings/Important Drawings/PNG/behavior-subject.png",
     "Learnings/Important Drawings/PNG/subject-in-action.png",
-    "Learnings/Important Drawings/PNG/subject vs observable vs observer.png",
-    "Learnings/Important Drawings/PNG/flattening-operators - comparinson.png",
-    "Pasted image 20240208225210.png",
-    "Pasted image 20240208225046.png",
     "Excalidraw",
-    "Untitled.canvas",
-    "Learnings/Important Drawings/PNG/flattening-mergeMap.png",
-    "Learnings/Important Drawings/PNG/flattening-switchMap.png",
-    "Learnings/Important Drawings/PNG/concatMap-concurrency.png",
-    "Learnings/Important Drawings/PNG/Flattening concatMap-catchError -2.png",
     "Learnings/Important Drawings/PNG",
     "Learnings/Important Drawings/New folder",
     "Learnings/Important Drawings/Untitled.canvas",
@@ -256,8 +262,7 @@
     "Learnings/RxJS/All Lectures",
     "Learnings/RxJS",
     "Office Tasks and Notes/Daily Tasks",
-    "Learnings/Practical Guide to learn Typescript",
-    "Learnings",
-    "Office Tasks and Notes"
+    "Learnings/Typescript",
+    "Learnings"
   ]
 }

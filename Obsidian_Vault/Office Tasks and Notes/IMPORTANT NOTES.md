@@ -1,5 +1,5 @@
-- if height increased, width is being cut little more
-- if width is increased, width is being left a little
+changes in syncdetails api : LoginFormData and UsersInfos
+saveuserform for update option with custom value
 //Stop or End
 //Payment gateway
 change message for connection not selected for media fields
@@ -24,8 +24,8 @@ sorting in workspace not happening issue
 displayLocationAs is null after updating
 ```
 Interlinking: [[abcd]]
-Heading1: #abcd
-Heading2: ##abcd
+Heading1: # abcd
+Heading2: ## abcd
 Tag: #abcd
 ```
 ![[Pasted image 20240208111808.png]]
