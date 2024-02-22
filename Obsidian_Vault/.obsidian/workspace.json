@@ -36,43 +36,31 @@
             }
           },
           {
-            "id": "a9d53fb8080d2d2b",
+            "id": "5bfe13f35eb000fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Angular/Section 1 - Getting Started.md",
+                "file": "Learnings/Angular/Section 5 - Components & Databinding Deep Dive.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "805126cc511110ad",
+            "id": "b613cb3d176e75ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Angular/Section 2 - The Basics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee844a04f8474766",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Office Tasks and Notes/Daily Tasks/2024-02-12 TO 2024-02-16.md",
+                "file": "2024-02-19 TO 2024-02-23.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -129,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -150,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/Angular/Section 2 - The Basics.md",
+                "file": "Learnings/Angular/Section 5 - Components & Databinding Deep Dive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/Angular/Section 2 - The Basics.md",
+                "file": "Learnings/Angular/Section 5 - Components & Databinding Deep Dive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/Angular/Section 2 - The Basics.md"
+                "file": "Learnings/Angular/Section 5 - Components & Databinding Deep Dive.md"
               }
             }
           }
@@ -214,19 +202,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "805126cc511110ad",
+  "active": "5bfe13f35eb000fd",
   "lastOpenFiles": [
-    "Office Tasks and Notes/Daily Tasks/2024-02-12 TO 2024-02-16.md",
-    "Learnings/Angular/Section 2 - The Basics.md",
-    "Learnings/Typescript/--Contents - TS--.md",
-    "Learnings/Angular/Section 1 - Getting Started.md",
     "Learnings/Angular/--Contents - Angular--.md",
+    "Learnings/Angular/Section 4 - Debugging.md",
+    "2024-02-19 TO 2024-02-23.md",
+    "Learnings/Angular/Section 2 - The Basics.md",
+    "Office Tasks and Notes/Daily Tasks/2024-02-12 TO 2024-02-16.md",
+    "Learnings/Angular/Section 3 - Course Project - The Basics.md",
+    "Learnings/Angular/Section 1 - Getting Started.md",
+    "Learnings/Angular/Section 34 - Bonus - Typescript Introduction (for Angular 2 Usage).md",
+    "Learnings/Typescript/1. Typescript Setup.md",
+    "Learnings/RxJS/Section 4- Types of Observable.md",
+    "Learnings/Important Drawings/PNG/project-plan.png",
+    "Office Tasks and Notes/Daily Tasks/2024-02-05 TO 2024-02-09.md",
+    "Learnings/Typescript/--Contents - TS--.md",
     "Learnings/Important Drawings/PNG/databinding.png",
     "Office Tasks and Notes/IMPORTANT NOTES.md",
     "Pasted image 20240214213200.png",
     "Learnings/Important Drawings/PNG/components.png",
-    "Learnings/Angular/Section 34 - Bonus - Typescript Introduction (for Angular 2 Usage).md",
-    "Office Tasks and Notes/Daily Tasks/2024-02-05 TO 2024-02-09.md",
     "Learnings/Important Drawings/PNG/typescript.png",
     "Pasted image 20240213212529.png",
     "Learnings/Important Drawings/PNG/course-structure.png",
@@ -245,15 +239,9 @@
     "Learnings/Angular/Section 25 - Angular Signals.md",
     "Learnings/Angular/Section 24 - Standalone Components.md",
     "Learnings/Angular/Section 23 - Deploying an Angular App.md",
-    "Learnings/Angular/Section 22 - Angular Modules & Optimizing Angular Apps.md",
-    "Learnings/Angular/Section 21 - Dynamic Components.md",
-    "Learnings/Angular/Section 20 - Authentication & Route Protection in Angular.md",
-    "Learnings/Angular/Section 19 - Course Project - Http.md",
-    "Learnings/Angular/Section 18 - Making HTTP Requests.md",
     "Learnings/Angular",
     "Untitled.canvas",
     "Learnings/Important Drawings/PNG/behavior-subject.png",
-    "Learnings/Important Drawings/PNG/subject-in-action.png",
     "Excalidraw",
     "Learnings/Important Drawings/PNG",
     "Learnings/Important Drawings/New folder",
