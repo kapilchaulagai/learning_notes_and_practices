@@ -1,5 +1,7 @@
 <h2>Hi! This is Server Component!</h2>
-<p>
-  {{ "Server" }} with server id {{ serverId }} has the name
-  {{ getServerName() }}.
+<p
+  [ngStyle]="{ backgroundColor: getColor() }"
+  [ngClass]="{ online: serverStatus === 'online' }"
+>
+  {{ "Server" }} with server id {{ serverId }} is {{ serverStatus }}.
 </p>
