@@ -1,0 +1,11 @@
+- Development and Operations
+	- "That the word DevOps gets reduced to technology is a manifestation of how badly we need a cultural shift."                  --Patrick Debois
+- [[1. DevOps Basics]]
+- [[2. DevOps - A Culture Problem]]
+- [[3. The Building Blocks of DevOps]]
+- [[4. Infrastructure Automation]]
+- [[5. Continuous Delivery]]
+- [[6. Reliability Engineering]]
+- [[7. Additional DevOps Resources]]
+- [[8. The Future of DevOps]]
+- [[9. Conclusions]]

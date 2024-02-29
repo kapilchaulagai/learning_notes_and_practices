@@ -1,5 +1,7 @@
-changes in syncdetails api : LoginFormData and UsersInfos
+handle "any" camera resolution
+camera resolution and orientation are not mobile screen friendly
 saveuserform for update option with custom value
+records count outside and inside the app issue
 //Stop or End
 //Payment gateway
 change message for connection not selected for media fields

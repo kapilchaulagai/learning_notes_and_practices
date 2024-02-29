@@ -36,7 +36,19 @@
             }
           },
           {
-            "id": "5bfe13f35eb000fd",
+            "id": "a510361b00b6af2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Office Tasks and Notes/Daily Tasks/2024-02-26 TO 2024-03-01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e59cd5fbd88c1800",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,21 +58,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b613cb3d176e75ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-02-19 TO 2024-02-23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -202,46 +202,47 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5bfe13f35eb000fd",
+  "active": "e59cd5fbd88c1800",
   "lastOpenFiles": [
+    "Office Tasks and Notes/Daily Tasks/2024-02-26 TO 2024-03-01.md",
+    "Learnings/Angular/Section 5 - Components & Databinding Deep Dive.md",
     "Learnings/Angular/--Contents - Angular--.md",
+    "Office Tasks and Notes/Daily Tasks/2024-02-19 TO 2024-02-23.md",
+    "Learnings/DevOps Foundations/5. Continuous Delivery.md",
+    "Learnings/DevOps Foundations/9. Conclusions.md",
+    "Learnings/DevOps Foundations/3. The Building Blocks of DevOps.md",
+    "Learnings/DevOps Foundations/--Contents - DevOps-Foundations--.md",
+    "Learnings/DevOps Foundations/2. DevOps - A Culture Problem.md",
+    "Learnings/DevOps Foundations/1. DevOps Basics.md",
+    "Learnings/DevOps Foundations/8. The Future of DevOps.md",
+    "Learnings/DevOps Foundations/7. Additional DevOps Resources.md",
+    "Learnings/DevOps Foundations/6. Reliability Engineering.md",
+    "Learnings/Important Drawings/PNG/dev-ops.png",
+    "Learnings/Important Drawings/PNG/cont-delivery-pipeline.png",
+    "Learnings/Angular/Section 3 - Course Project - The Basics.md",
+    "Learnings/DevOps Foundations/4. Infrastructure Automation.md",
+    "Learnings/Important Drawings/PNG/config-mgmt-pipeline.png",
+    "Learnings/Important Drawings/PNG/source-control.png",
+    "Learnings/Important Drawings/PNG/itil.png",
+    "Learnings/Important Drawings/PNG/five-whys-fish-diagram.png",
+    "Learnings/Important Drawings/PNG/gemba.png",
+    "Office Tasks and Notes/IMPORTANT NOTES.md",
+    "Angular New Project CLI.md",
+    "Pasted image 20240223174333.png",
+    "Learnings/Important Drawings/PNG/incident-command-system.png",
+    "Learnings/Important Drawings/PNG/key-metrics.png",
+    "Learnings/Angular/Section 1 - Getting Started.md",
+    "Learnings/DevOps Foundations",
     "Learnings/Angular/Section 4 - Debugging.md",
-    "2024-02-19 TO 2024-02-23.md",
     "Learnings/Angular/Section 2 - The Basics.md",
     "Office Tasks and Notes/Daily Tasks/2024-02-12 TO 2024-02-16.md",
-    "Learnings/Angular/Section 3 - Course Project - The Basics.md",
-    "Learnings/Angular/Section 1 - Getting Started.md",
     "Learnings/Angular/Section 34 - Bonus - Typescript Introduction (for Angular 2 Usage).md",
     "Learnings/Typescript/1. Typescript Setup.md",
     "Learnings/RxJS/Section 4- Types of Observable.md",
-    "Learnings/Important Drawings/PNG/project-plan.png",
     "Office Tasks and Notes/Daily Tasks/2024-02-05 TO 2024-02-09.md",
     "Learnings/Typescript/--Contents - TS--.md",
-    "Learnings/Important Drawings/PNG/databinding.png",
-    "Office Tasks and Notes/IMPORTANT NOTES.md",
-    "Pasted image 20240214213200.png",
-    "Learnings/Important Drawings/PNG/components.png",
-    "Learnings/Important Drawings/PNG/typescript.png",
-    "Pasted image 20240213212529.png",
-    "Learnings/Important Drawings/PNG/course-structure.png",
-    "Pasted image 20240210164039.png",
-    "Learnings/Important Drawings/Drawing.md",
-    "Learnings/RxJS/Section 7- Subjects.md",
-    "Learnings/Important Drawings/PNG/angular-versioning.png",
-    "Learnings/Angular/Section 33 - Course Roundup.md",
-    "Learnings/Angular/Section 32 - Angular Changes & New Features.md",
-    "Learnings/Angular/Section 31 - Angular as a Platform & Closer Look at the CLI.md",
-    "Learnings/Angular/Section 30 - A Basic Introduction to Unit Testing in Angular Apps.md",
-    "Learnings/Angular/Section 29 - Adding Office Capabilities with Service Workers.md",
-    "Learnings/Angular/Section 28 - Angular Animations.md",
-    "Learnings/Angular/Section 27 - Bonus - Angular Universal.md",
-    "Learnings/Angular/Section 26 - Bonus - Using NgRx For State Management.md",
-    "Learnings/Angular/Section 25 - Angular Signals.md",
-    "Learnings/Angular/Section 24 - Standalone Components.md",
-    "Learnings/Angular/Section 23 - Deploying an Angular App.md",
     "Learnings/Angular",
     "Untitled.canvas",
-    "Learnings/Important Drawings/PNG/behavior-subject.png",
     "Excalidraw",
     "Learnings/Important Drawings/PNG",
     "Learnings/Important Drawings/New folder",
@@ -250,7 +251,6 @@
     "Learnings/RxJS/All Lectures",
     "Learnings/RxJS",
     "Office Tasks and Notes/Daily Tasks",
-    "Learnings/Typescript",
-    "Learnings"
+    "Learnings/Typescript"
   ]
 }

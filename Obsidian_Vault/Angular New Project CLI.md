@@ -8,4 +8,3 @@
 		- example `ng n --standalone=false`
 	**Angular style guide**
 	- [reference](https://angular.io/guide/styleguide)
-	- 

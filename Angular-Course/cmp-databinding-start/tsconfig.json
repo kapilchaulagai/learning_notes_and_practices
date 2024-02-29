@@ -6,6 +6,7 @@
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
+    "strict": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
