@@ -1,4 +1,4 @@
-w#HomeAngular - [[--Contents - Angular--]]
+#HomeAngular - [[--Contents - Angular--]]
 14. **Module Introduction**
 	- How Angular Works?
 	- What does actually angular do on the browser page?
