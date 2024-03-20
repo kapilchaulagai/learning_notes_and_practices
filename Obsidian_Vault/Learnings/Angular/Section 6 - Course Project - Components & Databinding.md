@@ -239,4 +239,84 @@
 	- One quick note: In case you're hitting an error in the next lecture, make sure you have `FormsModule` added to your `imports[]` in the `AppModule`. Also have a look at the following Q&A thread for more info: [https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/questions/4924644](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/questions/4924644)
 
 92. **Allowing the User to Add Ingredients to the Shopping List**
-	- 
+	- Example:
+	``` ts
+	//shopping-edit.component.html
+	<div class="row">
+	  <div class="col-xs-12">
+	    <form>
+	      <div class="row">
+	        <div class="col-sm-5 form-group">
+	          <label for="name">Name</label>
+	          <input type="text" id="name" class="form-control" #nameInput />
+	        </div>
+	        <div class="col-sm-2 form-group">
+	          <label for="amount">Amount</label>
+	          <input type="number" id="amount" class="form-control" #amountInput />
+	        </div>
+	      </div>
+	      <div class="row">
+	        <div class="col-xs-12">
+	          <button class="btn btn-success" type="submit" (click)="onAddItem($event)">
+	            Add
+	          </button>
+	          <button class="btn btn-danger" type="button">Delete</button>
+	          <button class="btn btn-primary" type="button">Clear</button>
+	        </div>
+	      </div>
+	    </form>
+	  </div>
+	</div>
+	
+	//shopping-edit.component.ts
+	export class ShoppingEditComponent implements OnInit {
+	  @ViewChild('nameInput') nameInputRef: ElementRef;
+	  @ViewChild('amountInput') amountInputRef: ElementRef;
+	
+	  @Output() ingredientAdded = new EventEmitter<Ingredient>();
+	
+	  constructor() {}
+	
+	  ngOnInit(): void {}
+	
+	  onAddItem(event: any) {
+		event.preventDefault();
+	    const ingName = this.nameInputRef.nativeElement.value;
+	    const ingAmount = this.amountInputRef.nativeElement.value;
+	    const newIngredient = new Ingredient(ingName, ingAmount);
+	    this.ingredientAdded.emit(newIngredient);
+	  }
+	}
+	
+	//shopping-list.component.html
+	<div class="row">
+	  <div class="col-xs-10">
+	    <app-shopping-edit (ingredientAdded)="onIngredientAdded($event)">
+	    </app-shopping-edit>
+	    <hr />
+	    <ul class="list-group">
+	      <a
+	        class="list-group-item"
+	        style="cursor: pointer"
+	        *ngFor="let ingredient of ingredients"
+      >	
+	        {{ ingredient.name }} ({{ ingredient.amount }})
+	      </a>
+	    </ul>
+	  </div>
+	</div>
+	
+	//shopping-list.component.ts
+	export class ShoppingListComponent implements OnInit {
+	  ingredients: Ingredient[] = [
+	    new Ingredient('Apples', 5),
+	    new Ingredient('Tomatoes', 10),
+	  ];
+	  constructor() {}
+	  ngOnInit(): void {}
+	
+	  onIngredientAdded(ingredient: Ingredient) {
+	    this.ingredients.push(ingredient);
+	  }
+	}
+	```

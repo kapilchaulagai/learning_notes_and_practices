@@ -1,10 +1,8 @@
-handle "any" camera resolution
-camera resolution and orientation are not mobile screen friendly
-saveuserform for update option with custom value
-records count outside and inside the app issue
-//Stop or End
-//Payment gateway
-change message for connection not selected for media fields
+- Location field without image doesn't have clear icon
+- onbackpress no dialogue box opening for a submitted edit record
+- camera resolution and orientation are not mobile screen friendly
+- records count outside and inside the app issue
+
 fetch button
 image resolution
 Finger select for capture
@@ -19,11 +17,7 @@ check menu hierarchy to find app for the openapp macro
 //web
 sometimes attr drop down in change attr macro config is not working
 photo validator is not hiding on hidden change attr macro perform
-linkedapp change on attr macro not working
-dropdown corrupt issue
 inparams edit and submit not happening issue
-sorting in workspace not happening issue
-displayLocationAs is null after updating
 ```
 Interlinking: [[abcd]]
 Heading1: # abcd
