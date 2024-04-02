@@ -1,5 +1,6 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Recipe } from '../recipe.model';
+import { RecipeService } from '../recipe.service';
 
 @Component({
   selector: 'app-recipe-list',
@@ -7,29 +8,10 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css'],
 })
 export class RecipeListComponent implements OnInit {
-  @Output() recipeWasSelected = new EventEmitter<Recipe>();
+  recipes: Recipe[];
 
-  recipes: Recipe[] = [
-    new Recipe(
-      'Thakali Khana1',
-      'This is a typical nepali thali.',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiNaq-KP_05cBRzT28mj6HlDM282RwAvrmMkfzLUBbTwFhVYBW6ZDmigNUDloKAXyI50&usqp=CAU'
-    ),
-    new Recipe(
-      'Thakali Khana2',
-      'This is a typical nepali thali.',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiNaq-KP_05cBRzT28mj6HlDM282RwAvrmMkfzLUBbTwFhVYBW6ZDmigNUDloKAXyI50&usqp=CAU'
-    ),
-    new Recipe(
-      'Thakali Khana3',
-      'This is a typical nepali thali.',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZiNaq-KP_05cBRzT28mj6HlDM282RwAvrmMkfzLUBbTwFhVYBW6ZDmigNUDloKAXyI50&usqp=CAU'
-    ),
-  ];
-  constructor() {}
-  ngOnInit(): void {}
-
-  onRecipeSelected(recipeEl: Recipe) {
-    this.recipeWasSelected.emit(recipeEl);
+  constructor(private recipeService: RecipeService) {}
+  ngOnInit(): void {
+    this.recipes = this.recipeService.getRecipes();
   }
 }
