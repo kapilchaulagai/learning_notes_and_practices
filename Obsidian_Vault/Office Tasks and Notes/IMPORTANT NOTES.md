@@ -1,3 +1,8 @@
+- mfa
+- password expiry doesn't lead to password change screen
+- AppSpace/ Workspace
+- soft delete/ hard delete
+- language related changes
 - Location field without image doesn't have clear icon
 - onbackpress no dialogue box opening for a submitted edit record
 - camera resolution and orientation are not mobile screen friendly
@@ -24,4 +29,3 @@ Heading1: # abcd
 Heading2: ## abcd
 Tag: #abcd
 ```
-![[Pasted image 20240208111808.png]]

@@ -36,30 +36,31 @@
             }
           },
           {
-            "id": "c496fac4edbab9d6",
+            "id": "9700681b4449a1ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Office Tasks and Notes/Daily Tasks/2024-03-18 TO 2024-03-22.md",
+                "file": "Office Tasks and Notes/Daily Tasks/2024-04-08 TO 2024-04-12.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9920e442c4000573",
+            "id": "e810a7be1c7d756b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Angular/Section 9 - Using Services & Dependency Injection.md",
+                "file": "Learnings/Angular/Section 18 - Making HTTP Requests.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -88,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "assignment",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Office Tasks and Notes/IMPORTANT NOTES.md",
+                "file": "Learnings/Angular/Section 18 - Making HTTP Requests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Office Tasks and Notes/IMPORTANT NOTES.md",
+                "file": "Learnings/Angular/Section 18 - Making HTTP Requests.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Office Tasks and Notes/IMPORTANT NOTES.md"
+                "file": "Learnings/Angular/Section 18 - Making HTTP Requests.md"
               }
             }
           }
@@ -197,47 +198,48 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "31887ba926ffc25d",
+  "active": "e810a7be1c7d756b",
   "lastOpenFiles": [
-    "Learnings/Angular/Section 9 - Using Services & Dependency Injection.md",
-    "Learnings/Important Drawings/PNG/injector-hierarchy.png",
-    "Office Tasks and Notes/Daily Tasks/2024-03-18 TO 2024-03-22.md",
-    "Learnings/Important Drawings/PNG/services.png",
-    "Office Tasks and Notes/IMPORTANT NOTES.md",
-    "Office Tasks and Notes/Daily Tasks/2024-03-11 TO 2024-03-15.md",
+    "Learnings/Important Drawings/PNG/anatomy-http-request.png",
+    "Learnings/Important Drawings/PNG/angular-to-database.png",
     "Learnings/Angular/--Contents - Angular--.md",
+    "Office Tasks and Notes/Daily Tasks/2024-04-08 TO 2024-04-12.md",
+    "Learnings/Angular/Section 17 - Using Pipes to Transform Output.md",
+    "Learnings/Angular/Section 2 - The Basics.md",
+    "Office Tasks and Notes/IMPORTANT NOTES.md",
+    "Learnings/Important Drawings/PNG/pipes.png",
+    "Office Tasks and Notes/Daily Tasks/2024-04-01 TO 2024-04-05.md",
+    "Learnings/Angular/Section 16 - Course Project - Forms.md",
+    "Learnings/Angular/Section 15 - Handling Forms in Angular Apps.md",
+    "Learnings/Angular/Section 9 - Using Services & Dependency Injection.md",
+    "Pasted image 20240408070616.png",
+    "Learnings/Important Drawings/PNG/forms-approaches.png",
+    "Learnings/Angular/Section 14 - Course Project - Observables.md",
+    "Learnings/Angular/Section 13 - Understanding Observables.md",
+    "Learnings/Important Drawings/PNG/observable-subject.png",
+    "Learnings/Important Drawings/PNG/observable-operators.png",
+    "Learnings/Important Drawings/PNG/observable.png",
+    "Learnings/Angular/Section 12 - Course Project - Routing.md",
+    "Learnings/Angular/Section 11 - Changing Pages with Routing.md",
+    "Pasted image 20240406220424.png",
+    "Office Tasks and Notes/Daily Tasks/2024-03-18 TO 2024-03-22.md",
+    "Office Tasks and Notes/Daily Tasks/2024-03-25 TO 2024-03-29.md",
+    "Learnings/Angular/Section 10 - Course Project - Services & Dependency Injection.md",
+    "Learnings/Important Drawings/PNG/adding-service.png",
+    "Learnings/Important Drawings/PNG/injector-hierarchy.png",
+    "Office Tasks and Notes/Daily Tasks/2024-03-11 TO 2024-03-15.md",
     "Learnings/Angular/Section 8 - Course Project - Directives.md",
     "Learnings/Angular/Section 1 - Getting Started.md",
     "Learnings/Angular/Section 7 - Directives Deep Dive.md",
     "Learnings/Angular/Section 5 - Components & Databinding Deep Dive.md",
-    "Learnings/Important Drawings/PNG/directives.png",
     "Learnings/Angular/Section 6 - Course Project - Components & Databinding.md",
     "Office Tasks and Notes/Daily Tasks/2024-03-04 TO 2024-03-08.md",
     "Office Tasks and Notes/Daily Tasks/2024-02-26 TO 2024-03-01.md",
     "Office Tasks and Notes/Daily Tasks/2024-02-19 TO 2024-02-23.md",
-    "Learnings/Angular/Section 3 - Course Project - The Basics.md",
-    "Learnings/Angular/Section 2 - The Basics.md",
-    "Learnings/Important Drawings/PNG/lifecycle-angular.png",
-    "Learnings/DevOps Foundations/5. Continuous Delivery.md",
-    "Learnings/DevOps Foundations/9. Conclusions.md",
-    "Learnings/DevOps Foundations/3. The Building Blocks of DevOps.md",
-    "Learnings/DevOps Foundations/--Contents - DevOps-Foundations--.md",
-    "Learnings/DevOps Foundations/2. DevOps - A Culture Problem.md",
-    "Learnings/DevOps Foundations/1. DevOps Basics.md",
-    "Learnings/DevOps Foundations/8. The Future of DevOps.md",
-    "Learnings/DevOps Foundations/7. Additional DevOps Resources.md",
-    "Learnings/DevOps Foundations/6. Reliability Engineering.md",
-    "Learnings/Important Drawings/PNG/dev-ops.png",
-    "Learnings/Important Drawings/PNG/cont-delivery-pipeline.png",
-    "Learnings/DevOps Foundations/4. Infrastructure Automation.md",
-    "Learnings/Important Drawings/PNG/config-mgmt-pipeline.png",
-    "Learnings/Important Drawings/PNG/source-control.png",
-    "Learnings/Important Drawings/PNG/itil.png",
-    "Learnings/Important Drawings/PNG/five-whys-fish-diagram.png",
     "Learnings/DevOps Foundations",
     "Learnings/Angular",
     "Untitled.canvas",

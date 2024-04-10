@@ -204,4 +204,195 @@
 	- Since we require the only one service instance that has been created in AppComponent (i.e, app.component.ts), remove the service added inside the `providers:[]` in each lower-hierarchy component.
 
 115. **Injecting Services into Services**
-	- 
+	- `@Injectable()`: is a decorator in Angular, a popular web framework for building single-page client applications using HTML and TypeScript.
+	- When you apply `@Injectable()` to a class in Angular, you're indicating to the Angular Dependency Injection (DI) system that the class may have its own dependencies that need to be injected. This decorator allows Angular to identify services, such as those with business logic or data access responsibilities, and manage their instantiation and injection into other components or services that require them.
+	- Example:
+		``` ts
+		//logging.service.ts
+		export class LoggingService {
+		  logStatusChange(status: string) {
+		    console.log('A server status changed, new status: ' + status);
+		  }
+		}
+		
+		//account.service.ts
+		import { Injectable } from "@angular/core";
+		import { LoggingService } from "./logging.service";
+		
+		@Injectable()
+		export class AccountsService {
+		  accounts = [
+		    {
+		      name: 'Master Account',
+		      status: 'active',
+		    },
+		    {
+		      name: 'Testaccount',
+		      status: 'inactive',
+		    },
+		    {
+		      name: 'Hidden Account',
+		      status: 'unknown',
+		    },
+		  ];
+		
+		  constructor(private loggingService: LoggingService){}
+		
+		  addAccount(name: string, status: string) {
+		    this.accounts.push({ name: name, status: status });
+		    this.loggingService.logStatusChange(status);
+		  }
+		
+		  updateStatus(id: number, status: string) {
+		    this.accounts[id].status = status;
+		    this.loggingService.logStatusChange(status);
+		  }
+		}
+		
+		//app.module.ts
+		imports {...} from '...';
+		@NgModule({
+		  declarations: [
+		    AppComponent,
+		    AccountComponent,
+		    NewAccountComponent
+		  ],
+		  imports: [
+		    BrowserModule,
+		    FormsModule,
+		  ],
+		  providers: [AccountsService, LoggingService],
+		  bootstrap: [AppComponent]
+		})
+		export class AppModule { }
+
+		//account.component.ts
+		@Component({
+		  selector: 'app-account',
+		  templateUrl: './account.component.html',
+		  styleUrls: ['./account.component.css'],
+		  // providers: [LoggingService],
+		})
+		export class AccountComponent {
+		  @Input() account: { name: string; status: string };
+		  @Input() id: number;
+		
+		  constructor(
+		    //private loggingService: LoggingService,
+		    private accountsService: AccountsService
+		  ) {}
+		
+		  onSetTo(status: string) {
+		    this.accountsService.updateStatus(this.id, status);
+		    //this.loggingService.logStatusChange(status);
+		  }
+		}
+		```
+
+116. **Using Services for Cross-Component Communication**
+	- We are creating an EventEmitter inside the service which emits an event on some scenarios which can be subscribed over any component so that we can maintain some particular part of logics within the service itself that are being used in multiple places throughout different components.
+	- Example: Instance of the service has been created in module level for the given example.
+		``` ts
+		//accounts.service.ts
+		@Injectable()
+		export class AccountsService {
+		  accounts = [
+		    {
+		      name: 'Master Account',
+		      status: 'active',
+		    },
+		    {
+		      name: 'Testaccount',
+		      status: 'inactive',
+		    },
+		    {
+		      name: 'Hidden Account',
+		      status: 'unknown',
+		    },
+		  ];
+		
+		  statusUpdated = new EventEmitter<string>();
+		
+		  constructor(private loggingService: LoggingService){}
+		
+		  addAccount(name: string, status: string) {
+		    this.accounts.push({ name: name, status: status });
+		    this.loggingService.logStatusChange(status);
+		  }
+		
+		  updateStatus(id: number, status: string) {
+		    this.accounts[id].status = status;
+		    this.loggingService.logStatusChange(status);
+		  }
+		}
+		
+		//account.component.ts
+		@Component({
+		  selector: 'app-account',
+		  templateUrl: './account.component.html',
+		  styleUrls: ['./account.component.css'],
+		})
+		export class AccountComponent {
+		  @Input() account: { name: string; status: string };
+		  @Input() id: number;
+		
+		  constructor(
+		    private accountsService: AccountsService
+		  ) {}
+		
+		  onSetTo(status: string) {
+		    this.accountsService.updateStatus(this.id, status);
+		    this.accountsService.statusUpdated.emit(status);
+		  }
+		}
+		
+		//new-account.component.ts
+		@Component({
+		  selector: 'app-new-account',
+		  templateUrl: './new-account.component.html',
+		  styleUrls: ['./new-account.component.css'],
+		})
+		export class NewAccountComponent {
+		  constructor(
+		    private accountsService: AccountsService
+		  ) {
+		    this.accountsService.statusUpdated.subscribe(
+		      (status:string) => alert("New Status:  " + status)
+		    );
+		  }
+		
+		  onCreateAccount(accountName: string, accountStatus: string) {
+		    this.accountsService.addAccount(accountName, accountStatus);
+		  }
+		}
+		```
+
+117. **A Different Way Of Injecting Services**
+	- If you're using **Angular 6+** (check your `package.json`  to find out), you can provide application-wide services in a different way.
+	- Instead of adding a service class to the `providers[]`  array in `AppModule` , you can set the following config in `@Injectable()` :
+		``` ts
+		@Injectable({providedIn: 'root'})
+		export class MyService { ... }
+		```
+		This is exactly the same as:
+		``` ts
+		export class MyService { ... }
+		```
+		and
+		``` ts
+		import { MyService } from './path/to/my.service';
+		 
+		@NgModule({
+		    ...
+		    providers: [MyService]
+		})
+		export class AppModule { ... }
+		```
+		Using this syntax is **completely optional**, the traditional syntax (using `providers[]` ) will also work.
+	- The "new syntax" does offer one advantage though: Services **can be loaded lazily** by Angular (behind the scenes) and redundant code can be removed automatically. This can lead to a better performance and loading speed - though this really only kicks in for bigger services and apps in general.
+
+**==Assignment 2: Practicing Services==**
+	Find it in the Angular Course Folder.
+
+118. **`[OPTIONAL]` Assignment Solution**
+	Already Completed and similar to previously created project in the previous lectures.
