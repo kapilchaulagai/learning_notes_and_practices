@@ -1,0 +1,60 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist a new command
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+/dist
+yarn.lock
+/Angular-Course/01-starting-project/node_modules
+/Angular-Course/01-starting-project/.angular/cache
+/Angular-Course/03-starting-with-routing/.angular/cache
+/Angular-Course/03-starting-with-routing/node_modules
+/Angular-Course/http-01-start/.angular/cache
+/Obsidian_Vault/.trash
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.scannerwork
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+/report.20210514.140148.12052.0.001.json
+/report.20210511.224055.11792.0.001.json
+/package-lock.json
+manifests/appsteer-core-ui.yml

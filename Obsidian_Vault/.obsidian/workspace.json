@@ -18,49 +18,99 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "IMPORTANT NOTES"
             }
           },
           {
-            "id": "41f66aef39c13a5c",
+            "id": "406ceb2352afb991",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Office Tasks and Notes/Front-End Instructions and Modules Info.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Front-End Instructions and Modules Info"
+            }
+          },
+          {
+            "id": "9419691c879fe33a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Angular/--Contents - Angular--.md",
+                "file": "Learnings/Android/--Contents - Android--.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "--Contents - Android--"
             }
           },
           {
-            "id": "9700681b4449a1ce",
+            "id": "f5cb4fc94441b960",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Office Tasks and Notes/Daily Tasks/2024-04-08 TO 2024-04-12.md",
+                "file": "Office Tasks and Notes/Theme Notes.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Theme Notes"
             }
           },
           {
-            "id": "e810a7be1c7d756b",
+            "id": "b9a2c0c2fae35da8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learnings/Angular/Section 18 - Making HTTP Requests.md",
+                "file": "Office Tasks and Notes/Daily Tasks/2024-08-12 TO 2024-08-16.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-08-12 TO 2024-08-16"
+            }
+          },
+          {
+            "id": "7a96d2afecbb6aae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Theme Config Steps.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Theme Config Steps"
+            }
+          },
+          {
+            "id": "7234819dce2a2eed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Office Tasks and Notes/UI Setup and Info.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UI Setup and Info"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -80,7 +130,9 @@
               "type": "diagram-edit",
               "state": {
                 "file": "Learnings/Important Drawings/Untitled Diagram.svg"
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -89,13 +141,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "assignment",
+                "query": "tag:#customVar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -103,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -113,16 +169,17 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 637.5
   },
   "right": {
     "id": "0fd17c2af656aebf",
@@ -138,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learnings/Angular/Section 18 - Making HTTP Requests.md",
+                "file": "Steps to perform theme variable mapping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +203,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Steps to perform theme variable mapping"
             }
           },
           {
@@ -155,10 +214,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learnings/Angular/Section 18 - Making HTTP Requests.md",
+                "file": "Steps to perform theme variable mapping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Steps to perform theme variable mapping"
             }
           },
           {
@@ -169,7 +230,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -178,8 +241,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learnings/Angular/Section 18 - Making HTTP Requests.md"
-              }
+                "file": "Steps to perform theme variable mapping.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Steps to perform theme variable mapping"
             }
           }
         ],
@@ -202,55 +267,56 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e810a7be1c7d756b",
+  "active": "7234819dce2a2eed",
   "lastOpenFiles": [
-    "Learnings/Important Drawings/PNG/anatomy-http-request.png",
-    "Learnings/Important Drawings/PNG/angular-to-database.png",
-    "Learnings/Angular/--Contents - Angular--.md",
-    "Office Tasks and Notes/Daily Tasks/2024-04-08 TO 2024-04-12.md",
-    "Learnings/Angular/Section 17 - Using Pipes to Transform Output.md",
-    "Learnings/Angular/Section 2 - The Basics.md",
+    "Theme Config Steps.md",
+    "Office Tasks and Notes/UI Setup and Info.md",
+    "Notes.md",
     "Office Tasks and Notes/IMPORTANT NOTES.md",
-    "Learnings/Important Drawings/PNG/pipes.png",
-    "Office Tasks and Notes/Daily Tasks/2024-04-01 TO 2024-04-05.md",
-    "Learnings/Angular/Section 16 - Course Project - Forms.md",
-    "Learnings/Angular/Section 15 - Handling Forms in Angular Apps.md",
-    "Learnings/Angular/Section 9 - Using Services & Dependency Injection.md",
-    "Pasted image 20240408070616.png",
-    "Learnings/Important Drawings/PNG/forms-approaches.png",
-    "Learnings/Angular/Section 14 - Course Project - Observables.md",
-    "Learnings/Angular/Section 13 - Understanding Observables.md",
-    "Learnings/Important Drawings/PNG/observable-subject.png",
-    "Learnings/Important Drawings/PNG/observable-operators.png",
-    "Learnings/Important Drawings/PNG/observable.png",
-    "Learnings/Angular/Section 12 - Course Project - Routing.md",
-    "Learnings/Angular/Section 11 - Changing Pages with Routing.md",
-    "Pasted image 20240406220424.png",
-    "Office Tasks and Notes/Daily Tasks/2024-03-18 TO 2024-03-22.md",
-    "Office Tasks and Notes/Daily Tasks/2024-03-25 TO 2024-03-29.md",
-    "Learnings/Angular/Section 10 - Course Project - Services & Dependency Injection.md",
-    "Learnings/Important Drawings/PNG/adding-service.png",
-    "Learnings/Important Drawings/PNG/injector-hierarchy.png",
-    "Office Tasks and Notes/Daily Tasks/2024-03-11 TO 2024-03-15.md",
-    "Learnings/Angular/Section 8 - Course Project - Directives.md",
-    "Learnings/Angular/Section 1 - Getting Started.md",
-    "Learnings/Angular/Section 7 - Directives Deep Dive.md",
-    "Learnings/Angular/Section 5 - Components & Databinding Deep Dive.md",
-    "Learnings/Angular/Section 6 - Course Project - Components & Databinding.md",
-    "Office Tasks and Notes/Daily Tasks/2024-03-04 TO 2024-03-08.md",
-    "Office Tasks and Notes/Daily Tasks/2024-02-26 TO 2024-03-01.md",
-    "Office Tasks and Notes/Daily Tasks/2024-02-19 TO 2024-02-23.md",
+    "Steps to perform theme variable mapping 1Theme Config MappingUntitled 1Untitled 1Steps to perform theme variable mappingSteps to perform theme variable mappingSteps to perform theme variable mappingSteps to perform theme variable mapping.md",
+    "Office Tasks and Notes/Theme Notes.md",
+    "Office Tasks and Notes/Daily Tasks/2024-08-12 TO 2024-08-16.md",
+    "Untitled.md",
+    "Learnings/Android/Section 66- (Kotlin) - App Resources.md",
+    "Excalidraw/Drawing 2024-08-29 16.06.59.excalidraw.md",
+    "Excalidraw/Untitled.canvas",
+    "Learnings/Android/--Contents - Android--.md",
+    "Learnings/Android/Section 20- CardView - The Sports App.md",
+    "Learnings/Android/Section 19- RecyclerView - The Grocery App.md",
+    "Learnings/Android/Section 53- Dependency Injection Practical - Building DI app.md",
+    "Learnings/Android/Section 54- (Kotlin) - Installing Android Studio + SDK.md",
+    "Learnings/Android/Android Notesv2.pdf",
+    "Learnings/Android/Section 90- (Kotlin) - Journal App --- Firestore + Storage + Authentication.md",
+    "Learnings/Android/Section 89- (Kotlin) - Firestore with Android.md",
+    "Learnings/Android/Section 88- (Kotlin) - Firebase -- The Cloud Storage.md",
+    "Learnings/Android/Section 87- (Kotlin) - Quiz App --- (MySQL + MVVM + Retrofit).md",
+    "Learnings/Android/Section 86- (Kotlin) - Retrofit with Android.md",
+    "Learnings/Android/Section 85- (Kotlin) - Coroutines in Kotlin.md",
+    "Learnings/Android/Section 84- (Kotlin) - MVVM + ROOM - Note Taking App.md",
+    "Learnings/Android/Section 83- (Kotlin) - Navigation in Jetpack.md",
+    "Learnings/Android/Section 82- (Kotlin) - MVVM + ROOM - Contacts Manager App.md",
+    "Learnings/Android/Section 81- (Kotlin) - MVVM Architecture in Android.md",
+    "Learnings/Android/Section 80- (Kotlin) - Live Data in Android.md",
+    "Learnings/Important Drawings/PNG/android_the_views.png",
+    "Learnings/Important Drawings/PNG/android_views_viewgroups.png",
+    "Learnings/Important Drawings/PNG/android_higher_order_fun.png",
+    "Learnings/Important Drawings/PNG/android_anonymous_fun2.png",
+    "Learnings/Important Drawings/PNG/android_anonymous_fun1.png",
+    "Learnings/Important Drawings/PNG/android_lambda3.png",
+    "Learnings/Important Drawings/PNG/android_lambda2.png",
+    "Learnings/Important Drawings/PNG/android_lambda1.png",
+    "Learnings/Important Drawings/PNG/android_function_literals.png",
+    "Learnings/Important Drawings/PNG/android_collection.png",
+    "Excalidraw",
+    "Learnings/Angular/01-starting-project.zip",
+    "Learnings/Angular/Unconfirmed 839936.crdownload",
+    "Learnings/Android/Android+Notesv2.zip",
+    "Learnings/Android/Unconfirmed 915060.crdownload",
+    "Learnings/Android",
     "Learnings/DevOps Foundations",
     "Learnings/Angular",
     "Untitled.canvas",
-    "Excalidraw",
     "Learnings/Important Drawings/PNG",
-    "Learnings/Important Drawings/New folder",
-    "Learnings/Important Drawings/Untitled.canvas",
-    "Learnings/Important Drawings",
-    "Learnings/RxJS/All Lectures",
-    "Learnings/RxJS",
-    "Office Tasks and Notes/Daily Tasks",
-    "Learnings/Typescript"
+    "Learnings/Important Drawings/Untitled.canvas"
   ]
 }

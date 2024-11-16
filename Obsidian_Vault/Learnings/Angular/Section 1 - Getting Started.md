@@ -132,3 +132,5 @@
 	If you're getting errors when running npm install, you can often solve them by running npm install --legacy-peer-deps instead of npm install.
 	
 	Got any problems with the code (e.g. error messages when running it or you don't know how to use it)? Check this thread created by Jost: https://www.udemy.com/the-complete-guide-to-angular-2/learn/lecture/6709112#questions/8079942
+
+[[Test]]

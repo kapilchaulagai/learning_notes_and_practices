@@ -1,4 +1,18 @@
 {
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "foldIndent": false,
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "tabSize": 3,
+  "autoConvertHtml": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 75
+  }
 }
